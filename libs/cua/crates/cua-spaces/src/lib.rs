@@ -140,7 +140,9 @@ pub use error::{Error, Result};
 pub use id::{Provider, SpaceId};
 pub use relay::{RelayAccount, RelayMachine};
 pub use route::{ChannelRoute, Transport};
-pub use space::{SPACESD_FEATURE, ServiceSource, Space, SpaceInfo, SpacePower, SpaceService};
+pub use space::{
+    SPACESD_FEATURE, ServiceSource, Space, SpaceInfo, SpacePower, SpaceResize, SpaceService,
+};
 pub use spaces::{
     CreatePhase, CreateProgress, DEFAULT_PROBE_TIMEOUT, PendingSpace, ProgressSink,
     RecoveredCreate, RecoveryOutcome, SpaceCreate, SpaceCreated, Spaces, SpacesBuilder,
